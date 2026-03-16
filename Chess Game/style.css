@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: brown;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.chessBoard {
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    border: 4px solid black;
+    box-shadow: 6px 6px 15px gray;
+}
+
+.row {
+    height: 60px;
+    text-align: center;
+    font-size: 0;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    display:inline-block;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: beige;
+}
