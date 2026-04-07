@@ -9,25 +9,14 @@ let average=total/n;
 let grade;
 let result;
 if(average >= 90){
-    grade = "A+";
-}
-else if(average >=80){
-    grade="A";
-}
-else if(average >=70){
-    grade="B";
+    grade = "1st";
 }
 else if(average >=60){
-    grade="C";
+    grade="2nd";
 }
+
 else{
-    grade="D";
-}
-if(average<40){
-    result="Fail";
-}
-else{
-    result="Pass";
+    result="3rd";
 }
         document.getElementById("result").
         innerHTML="Total Marks: "+total+"<br/>"+"Average Marks: "+average+"<br/>"+"Grade: "+grade+"<br/>"+"Result: "+result;
