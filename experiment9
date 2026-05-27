@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-green-600 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                <h1 class="text-3xl font-bold">FitLife</h1>
+                <nav class="mt-4 md:mt-0">
+                    <ul class="flex flex-col md:flex-row gap-4 text-sm">
+                        <li><a href="#" class="hover:text-gray-200">Home</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Programs</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Trainers</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-green-500 to-green-700 text-white py-24 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Transform Your Body & Mind</h2>
+            <p class="text-lg mb-8">Join FitLife today and achieve your fitness goals with expert trainers.</p>
+            <button class="bg-white text-green-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200">
+                Join Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Programs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold text-green-600 mb-3">Weight Training</h3>
+                    <p class="text-gray-600">Build strength and muscle with guided weight training programs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold text-green-600 mb-3">Yoga Classes</h3>
+                    <p class="text-gray-600">Improve flexibility and mental wellness through yoga sessions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold text-green-600 mb-3">Diet Plans</h3>
+                    <p class="text-gray-600">Personalized diet plans to complement your fitness routine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white text-center py-6">
+        <p>© 2026 FitLife | All Rights Reserved</p>
+        <p class="mt-2">Contact: info@fitlife.com</p>
+        
+    </footer>
+</body>
+</html>
