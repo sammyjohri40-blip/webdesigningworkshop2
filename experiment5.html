@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Experiment 2</title> 
+<link rel="stylesheet" href="experiment5.css"> 
+<script src="experiment5.js"></script> 
+</head> 
+<body> 
+<div class="box"> 
+<h1>Employee Management System</h1> 
+<label>Employee Name</label> 
+<input type="text" id="name"><br><br> 
+<label>Employee ID</label> 
+<input type="text" id="id"><br><br> 
+<label>Salary</label> 
+<input type="number" id="salary"><br><br> 
+<label>Department</label> 
+<input type="text" id="dept"><br><br> 
+<button onclick="addEmployee()">Add Employee</button> 
+<button onclick="displayEmployees()">Display All</button> 
+<button onclick="filterSalary()">Salary > 50000</button> 
+<button onclick="totalSalary()">Total Salary</button> 
+<button onclick="averageSalary()">Average Salary</button> 
+<button onclick="countDepartment()">Count by 
+Department</button> 
+<div id="output"></div> 
+</div> 
+</body> 
+</html>
